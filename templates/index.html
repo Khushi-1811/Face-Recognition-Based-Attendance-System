@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition Attendance</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+	<style>
+		p {
+		  background-image: url('bg.jpg');
+		}
+	</style>
+    <div>
+        <img src="../logo.png" width="400px" height="auto" />
+            <h1>Welcome to Quillix</h1>
+    <form action="/attendance" method="post">
+        <div style="display: inline-block; position: relative;">
+             <button type="submit" class="btn" name="event" value="entry">Mark Entry<img src="../Arrow.png" class="arrow"></button>
+
+        </div><br/><br/>
+       <div style="display: inline-block; position: relative;">
+        <button type="submit" class="btn" name="event" value="exit">Mark Exit<img src="../Arrow.png" class="arrow"/></button>
+
+       </div>
+
+    </form>
+        <a href="/register">Register<img src="../arrow2.png" style="padding-left:10px;"></a>
+    </div>
+</body>
+</html>

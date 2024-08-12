@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../../Bg.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    text-align:center;
+    padding:100px 0;
+}
+
+h1{
+font-size:50px;
+}
+h1, h2 {
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="password"], input[type="file"] {
+    margin-bottom: 10px;
+     border-radius: 50px;
+      width:320px;
+    height:30px;
+    font-size:20px;
+    padding:10px;
+}
+
+.btn {
+    width:350px;
+    height:50px;
+    background-color: #0B54A7;
+    font-size:20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.arrow{
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: auto;
+    left: auto;
+}
+a {
+    color: #0B54A7;
+    text-decoration: none;
+    font-size:25px;
+    position:absolute;
+    bottom:40px;
+    right:150px;
+    display:flex;
+    align-items:center;
+}
+
+
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background-color: #ddd;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}

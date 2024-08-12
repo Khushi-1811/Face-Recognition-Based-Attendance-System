@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Face</title>
+    <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+    <style>
+        p {
+            background-image: url('bg.jpg');
+        }
+    </style>
+    <img src="../../logo.png" width="400px" height="auto" />
+    <h1>Register Face</h1>
+    <form method="POST" action="/register">
+        <input type="text" id="name" name="name" placeholder="Enter Your Name" required><br>
+        <div style="display: inline-block; position: relative;">
+            <button type="submit" class="btn" name="event" value="register">Register</button>
+            <img src="../../Arrow.png" class="arrow"/>
+        </div>
+    </form>
+    <a href="/">Back</a>
+</body>
+</html>
